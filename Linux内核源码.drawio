@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-30T05:43:12.489Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="_FbExdT86d6QZocrVJ7M" version="14.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-30T09:33:41.816Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="mOJZGXFvuKeHuhGAXUSv" version="14.4.6" type="github">
   <diagram id="PDQrPPCt7AoqD1a2VGnU" name="第 1 页">
-    <mxGraphModel dx="988" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1395" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -586,6 +586,9 @@
             <mxPoint x="1110" y="240" as="sourcePoint" />
             <mxPoint x="1160" y="190" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="z0M6DlXlGSnfHWOlpRQj-192" value="&lt;div&gt;1、进程调度器的任务(分配时间给进程、上下文切换)&lt;/div&gt;&lt;div&gt;合理分配CPU时间给运行的进程，调度器要求:分配的CPU时间不能太长，否则会导致其他的&lt;/div&gt;&lt;div&gt;程序响应延迟，很难保证公平性;分配时间也不能太短，每次调度会导致上下文切换，这种切&lt;/div&gt;&lt;div&gt;换需要开销大。&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="997.5" y="570" width="500" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
