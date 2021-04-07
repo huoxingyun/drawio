@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-23T10:45:19.415Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="cZ-eQk-0juLsGNryfvov" version="14.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-07T05:18:48.031Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="6OFhQWnYRV6FtIDkRy6g" version="14.5.3" type="github">
   <diagram id="9dMJemvoK3SUcXrxnUzU" name="Page-1">
-    <mxGraphModel dx="2804" dy="1273" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3199" dy="1528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -277,13 +277,13 @@
         <mxCell id="db7fz8IDNrDX2FohNWl7-167" value="" style="edgeStyle=isometricEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="db7fz8IDNrDX2FohNWl7-160" target="db7fz8IDNrDX2FohNWl7-165" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="db7fz8IDNrDX2FohNWl7-160" value="无状态：类似于：发帖、点赞、关注...等等的用户行为数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+        <mxCell id="db7fz8IDNrDX2FohNWl7-160" value="无状态：类似于：发帖、点赞、关注...等等的用户行为数据" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="1180" y="630" width="330" height="20" as="geometry" />
         </mxCell>
         <mxCell id="db7fz8IDNrDX2FohNWl7-168" value="" style="edgeStyle=isometricEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="db7fz8IDNrDX2FohNWl7-161" target="db7fz8IDNrDX2FohNWl7-162" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="db7fz8IDNrDX2FohNWl7-161" value="有状态：类似于：用户钱包、用户登录注册等接口，需要同步返回当下的状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+        <mxCell id="db7fz8IDNrDX2FohNWl7-161" value="有状态：类似于：用户钱包、用户登录注册等接口，需要同步返回当下的状态" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="1180" y="700" width="420" height="20" as="geometry" />
         </mxCell>
         <mxCell id="db7fz8IDNrDX2FohNWl7-162" value="直接走分布式服务，保证好服务的：隔离性、幂等性、原子性，即可" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
