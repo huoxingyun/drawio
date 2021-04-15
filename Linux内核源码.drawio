@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-15T03:24:03.350Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="e4LChqH-ObgWXMHnOLGB" version="14.5.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-15T03:59:07.349Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="lPp0woV5sxUVkJdloMqS" version="14.5.10" type="github">
   <diagram id="PDQrPPCt7AoqD1a2VGnU" name="第 1 页">
-    <mxGraphModel dx="1694" dy="1091" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3389" dy="2183" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -288,6 +288,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="fZSDdmLSalQd3NQzoNIS-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z0M6DlXlGSnfHWOlpRQj-101" target="fZSDdmLSalQd3NQzoNIS-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="z0M6DlXlGSnfHWOlpRQj-101" value="伙伴算法" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" parent="1" vertex="1">
           <mxGeometry x="907.5" y="1505" width="90" height="30" as="geometry" />
         </mxCell>
@@ -295,6 +298,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="694.5000000000005" y="1665" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="fZSDdmLSalQd3NQzoNIS-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z0M6DlXlGSnfHWOlpRQj-103" target="fZSDdmLSalQd3NQzoNIS-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="z0M6DlXlGSnfHWOlpRQj-103" value="slab/slub/slob分配器" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};labelBackgroundColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="904.5" y="1555" width="150" height="30" as="geometry" />
@@ -587,11 +593,17 @@
         <mxCell id="z0M6DlXlGSnfHWOlpRQj-192" value="&lt;div&gt;1、进程调度器的任务(分配时间给进程、上下文切换)&lt;/div&gt;&lt;div&gt;合理分配CPU时间给运行的进程，调度器要求:分配的CPU时间不能太长，否则会导致其他的&lt;/div&gt;&lt;div&gt;程序响应延迟，很难保证公平性;分配时间也不能太短，每次调度会导致上下文切换，这种切&lt;/div&gt;&lt;div&gt;换需要开销大。&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="997.5" y="570" width="500" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="C2WayP2JKalSiJ7PZumL-3" value="内存池比如 task_struct，会被经常使用，对这种经常频繁使用的对象，会建立内存池" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=1;strokeWidth=1;labelBackgroundColor=#FFFFFF;spacing=4;arcSize=50;" parent="1" vertex="1">
-          <mxGeometry x="1175.93" y="2167.5" width="120" height="115" as="geometry" />
+        <mxCell id="C2WayP2JKalSiJ7PZumL-3" value="内存池比如 task_struct、file_struct，会被经常使用，对这种经常频繁使用的对象，会建立内存池" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=1;strokeWidth=1;labelBackgroundColor=#FFFFFF;spacing=4;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="1175.93" y="2160" width="120" height="122.5" as="geometry" />
         </mxCell>
         <mxCell id="fZSDdmLSalQd3NQzoNIS-1" value="线程：是cpu并发执行的最小单位，进程是起到一个隔离和管理资源的角色，正在的执行会放到线程中&lt;br&gt;&lt;br&gt;线程之间的上下文切换代价远下小于进程之间的上下文切换，线程在内核中是用clone实现的，线程之间&lt;br&gt;&lt;br&gt;可以通过共享内存的方式通信，涉及对一个资源的使用时通常需要加锁处理&lt;br&gt;&lt;br&gt;线程信息传递：只需将数据复制到共享（全局或堆）变量中即可。不过，要避免出现多个线程试图同时修改同一份信息的情况&lt;br&gt;&lt;br&gt;线程调度：分时调度（轮流执行，平均分配执行时间）、抢占式调度（根据线程优先级）&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;进程在操作系统中，是一个task_struct的结构，包含了，进程的寻址空间（虚拟地址）、寄存器组、堆栈空间&lt;br&gt;&lt;br&gt;进程状态、进程中引用的文件描述符、信号量等&lt;br&gt;&lt;br&gt;进程间通信（inter-process communication，简称IPC）：管道、信号量、队列、socket、中断&lt;br&gt;&lt;br&gt;一个进程在创建的时候，会被加入到默认的调度队列、进程默认的调度算法为CFS、内核结构是一颗红黑树&lt;br&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(213 , 232 , 212)&quot;&gt;进程创建后，会通过进程权重，计算出时间片的大小&lt;/span&gt;（分配给进程的运行时间 = 调度周期 进程权重 / 所有进程权重之和* (公式1)）&lt;br&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 204 , 255)&quot;&gt;vruntime是更加实际运行的时间和权重算出来的&lt;/span&gt;，vruntime为红黑树的节点的key，根据vruntime然后加入到红黑树对应的位置。&lt;br&gt;&lt;br&gt;每次系统会从红黑树的左下角开始获取最小的vruntime，然后去调度&lt;br&gt;&lt;br&gt;每个进程打开的文件数可以通过 ulimit去修改" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="1700" y="230" width="700" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="fZSDdmLSalQd3NQzoNIS-3" value="所有的空闲页框分组为11个块链表&lt;br&gt;&lt;br&gt;每个块链表分别包含大小为1，2，4，8，16，32，64，128，256，512和1024个连续页框的页框块。&lt;br&gt;&lt;br&gt;最大可以申请1024个连续页框，对应4MB大小的连续内存。" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="1455" width="550" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fZSDdmLSalQd3NQzoNIS-5" value="对于每个内核中的相同类型的对象&lt;br&gt;如：&lt;span style=&quot;background-color: rgb(255 , 204 , 255)&quot;&gt;task_struct、file_struct 等需要重复使用的小型内核数据对象&lt;/span&gt;，都会有个 slab 缓存池&lt;br&gt;缓存住大量常用的「已经初始化」的对象，每当要申请这种类型的对象时，就从缓存池的slab 列表中分配一个出去；&lt;br&gt;而当要释放时，将其重新保存在该列表中，而不是直接返回给伙伴系统&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 204 , 255)&quot;&gt;从而避免内部碎片，同时也大大提高了内存分配性能。&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="1540" width="630" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
